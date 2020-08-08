@@ -1,0 +1,31 @@
+[{
+    "id": "4",
+    "name": {
+        "en": "StoreHub / 2019.03 - NOW",
+        "cn": "StoreHub / 2019.03 - 至今"
+    },
+    "describe": {
+        "en": "Malaysian new retail startup, Series A led by Vertex Ventures financed USD 8.9M. Worked as back-end developer, responsible for payment products, integrate Southeast Asia third-party payments to provide payment capabilities for the company's POS and Web. Participated in the transformation of microservices, K8s, and DDD. Main technology stack: TypeScript, MongoDB, Elasticsearch, RedShift.",
+        "cn": "马来西亚新零售初创公司，A轮 Vertex Ventures 领投 US$ 8.9M，担任后端开发工程师一职，负责支付产品，对接东南亚第三方支付，给公司产品提供支付能力。参与了微服务、K8s、DDD的改造，主要技术栈：TypeScript、MongoDB、RedShift"
+    }
+}, {
+    "id": "3",
+    "name": {
+        "en": "JiangSu Zhaomi Information technology co., LTD/ 2017.08 - 2019.03",
+        "cn": "江苏兆米技术有限公司 / 2017.08 - 2019.03"
+    },
+    "describe": {
+        "en": "Worked in a shared bookstore technology service provider as a full-stack developer. Daily write RESETful APIs and have a deeper understanding of Node.js during this work, familiar with ES6 features and apply them to production, and have some thoughts about architecture and software design patterns, want to write elegant and easy to expanded code. Main technology stack: JavaScript, Mysql, sqs.",
+        "cn": "某省共享书店的技术服务商担任全栈工程师一职，编写 RESETful API，日常开发 API 的过程对 Node.js 有了更深的理解，熟悉 ES6 特性并应用于生产，日常的工作中对架构和软件的设计模式有了一些思考，对代码不再满足于能用，而是坚持写出能读懂的，优雅的，易拓展的代码。主要技术栈：JavaScript, Mysql, Nsq."
+    }
+}, {
+    "id": "2",
+    "name": {
+        "en": "Shanghai QiSheng Information technology co., LTD/ 2016.11 - 2017.08",
+        "cn": "上海期盛信息技术有限公司 / 2016.11 - 2017.08"
+    },
+    "describe": {
+        "en": "Started working as the intern in my senior year, worked on the Node.js and learned the full stack, worked with a series of frameworks such as Express, Meteor, React, VUE, and etc., and also worked independently on the development of social apps for Android from scratch.",
+        "cn": "大四下学期开始在上海期盛实习并转正，开始 Node.js 后端的工作，开始了全栈的学习之路，工作中接触了 Express、Meteor、React、VUE 等一系列框架，还从0开始独立完成了 Android 的社交 APP 的开发。"
+    }
+}]

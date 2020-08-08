@@ -226,24 +226,9 @@
         </h2>
         <hr />
         <ul class="experience-list">
-          <li>
-            <h3 contenteditable="true">{{$t('experienceName4')}}</h3>
-            <p contenteditable="true">{{$t('experienceDescribe4')}}</p>
-            <span class="item-remove" style="visibility: hidden;">
-              <i class="iconfont icon-delete"></i>
-            </span>
-          </li>
-          <li>
-            <h3 contenteditable="true">{{$t('experience1Name')}}</h3>
-            <p contenteditable="true">{{$t('experience1Describe')}}</p>
-            <!-- <h4 contenteditable="true">{{$t('experience1ProjectUrl')}}</h4> -->
-            <span class="item-remove" style="visibility: hidden;">
-              <i class="iconfont icon-delete"></i>
-            </span>
-          </li>
-          <li>
-            <h3 contenteditable="true">{{$t('experience2Name')}}</h3>
-            <p contenteditable="true">{{$t('experience2Describe')}}</p>
+          <li v-for="workExperience in workExperiences" :key="workExperience.id">
+            <h3 contenteditable="true">{{workExperience.name[locale]}}</h3>
+            <p contenteditable="true">{{workExperience.describe[locale]}}</p>
             <span class="item-remove" style="visibility: hidden;">
               <i class="iconfont icon-delete"></i>
             </span>
@@ -263,67 +248,15 @@
         </h2>
         <hr />
         <ul class="experience-list">
-          <li>
-            <h3 contenteditable="true">{{$t('projectName4')}}</h3>
-            <p contenteditable="true">{{$t('projectDescribe4')}}</p>
-            <span class="item-remove" style="visibility: hidden;">
-              <i class="iconfont icon-delete"></i>
-            </span>
-          </li>
-          <li>
-            <h3 contenteditable="true">{{$t('project0Name')}}</h3>
-            <p contenteditable="true">{{$t('project0Describe')}}</p>
-            <span class="item-remove" style="visibility: hidden;">
-              <i class="iconfont icon-delete"></i>
-            </span>
-          </li>
-          <li>
-            <h3 contenteditable="true">{{$t('project1Name')}}</h3>
-            <p contenteditable="true">{{$t('project1Describe')}}</p>
-            <span class="item-remove" style="visibility: hidden;">
-              <i class="iconfont icon-delete"></i>
-            </span>
-          </li>
-          <li>
-            <h3 contenteditable="true">{{$t('project2Name')}}</h3>
-            <p contenteditable="true">{{$t('project2Describe')}}</p>
+          <li v-for="workProject in workProjects" :key="workProject.id">
+            <h3 contenteditable="true">{{workProject.name[locale]}}</h3>
+            <p contenteditable="true">{{workProject.describe[locale]}}</p>
             <span class="item-remove" style="visibility: hidden;">
               <i class="iconfont icon-delete"></i>
             </span>
           </li>
         </ul>
       </div>
-      <!-- <div class="trophy info-unit">
-        <h2 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title" contenteditable="true">奖项与证书</span><span
-            class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove"
-            style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
-        <hr>
-        <ul class="experience-list">
-          <li>
-            <h3 contenteditable="true">2017年度优秀员工</h3>
-            <p contenteditable="true">进入公司六个月被评为公司唯一“优秀员工”。</p>
-            <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span>
-          </li>
-          <li>
-            <h3 contenteditable="true">市创业“金点子”</h3>
-            <p contenteditable="true">在市创业“金点子”“青年创业新秀”评选活动中，设计制作了一个基于STM32的四轴飞行器，被评为创业“金点子”。</p>
-            <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span>
-          </li>
-          <li>
-            <h3 contenteditable="true">湖南工学院第七届“圆融杯”大学生电子设计竞赛一等奖</h3>
-            <p contenteditable="true">在校圆融杯比赛中，设计了一个基于Arduino的智能家电，实现了电子邮件控制空调开关。
-            </p>
-            <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span>
-          </li>
-          <li>
-            <h3 contenteditable="true">首届“挑战杯”湖南工学院大学生创业计划竞赛中获二等奖</h3>
-            <p contenteditable="true">
-              “金点子”项目的延续，在基础上增加了四轴飞行器GPS返航，航拍功能。
-            </p>
-            <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span>
-          </li>
-        </ul>
-      </div>-->
       <div class="aboutme info-unit right-paragraph">
         <h2 class="info-header">
           <i class="iconfont icon-flower"></i>
@@ -347,17 +280,21 @@
 
 <script>
 import $ from "jquery";
+import workProjects from "../static/workProjects.json";
+import workExperiences from "../static/workExperiences.json";
+
 export default {
   data() {
     return {
-      locale: "cn"
+      locale: "cn",
+      workProjects,
+      workExperiences,
     };
   },
   created() {
     document.title = this.$t("title");
     let uri = window.location.search.substring(1);
     let params = new URLSearchParams(uri);
-    // console.log(params.get("lng"))
     if (params.get("lng") == "en") {
       this.locale = "en";
     } else {
@@ -370,8 +307,8 @@ export default {
   watch: {
     locale(val) {
       this.$i18n.locale = val;
-    }
-  }
+    },
+  },
 };
 </script>
 

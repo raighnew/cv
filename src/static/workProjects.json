@@ -1,0 +1,41 @@
+[{
+    "id": 4,
+    "name": {
+        "en": "DDD Project",
+        "cn": "DDD实践项目"
+    },
+    "describe": {
+        "en": "",
+        "cn": ""
+    }
+}, {
+    "id": 3,
+    "name": {
+        "en": "Payment Service",
+        "cn": "支付服务"
+    },
+    "describe": {
+        "en": "TypeScript 项目，为了解决一个支付方式一个调用api，用多态封装了多种支付服务，以微服务的形式给公司其他服务提供支付支撑，项目开发过程重实践了 TDD，认识到了测试的重要性",
+        "cn": "TypeScript 项目，为了解决一个支付方式一个调用api，用多态封装了多种支付服务，以微服务的形式给公司其他服务提供支付支撑，项目开发过程重实践了 TDD，认识到了测试的重要性"
+    }
+}, {
+    "id": 2,
+    "name": {
+        "en": "Nodejs Resetful Project",
+        "cn": "Nodejs Resetful 服务"
+    },
+    "describe": {
+        "en": "Used Express to provide Restfull API support for client, use middleware to verify client request permission, familiar with WeChat authorization、 WeChat payment、enterprise payment. Designed and developed the order system, group purchase system, leading the upgrade of the back end.",
+        "cn": "使用了 Express 为客户端(IOS,Android,小程序,微信公众号)提供 Restfull API 支持，使用中间件验证客户端的请求权限，熟悉微信授权(小程序,公众号,App)，接入微信支付，企业付款，设计开发了订单系统，团购系统，主导升级了后端 Mysql 读写分离，nginx 负载均衡，nsq 消息列队等。。。前端方向，使用 VUE 和 ElementUI 开发了内部运营平台"
+    }
+}, {
+    "id": 1,
+    "name": {
+        "en": "Crawler + Data Visualization",
+        "cn": "爬虫 + 数据可视化"
+    },
+    "describe": {
+        "en": "Crawler project using Selenium to simulate real users crawling Zhihu and Douban data, crawling zhihu topics (150,000+) and Douban books (260,000+), and using Echart to visualize topic data. Project address: https://github.com/raighneweng/pythonCrawler",
+        "cn": "爬虫项目，使用 Selenium 模拟真实用户爬取知乎和豆瓣数据，爬取知乎的主要话题(15万+)和豆瓣图书(26万+)，并使用 Echart 将话题数据可视化，围观地址: https://github.com/raighneweng/pythonCrawler"
+    }
+}]

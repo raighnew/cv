@@ -5,8 +5,8 @@
         "cn": "DDD实践项目"
     },
     "describe": {
-        "en": "",
-        "cn": ""
+        "en": "After company decide to use the microservices, it is difficult to divide the domain of the business. We started to practice DDD",
+        "cn": "公司服务微服务话后，对新旧业务的领域划分是个难题，开始在公司内部实践DDD，在服务内部分别实现Infrastructure，Domain，Application，Interfaces层。"
     }
 }, {
     "id": 3,

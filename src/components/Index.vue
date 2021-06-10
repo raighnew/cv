@@ -4,7 +4,7 @@
       <div class="me">
         <div
           class="portrait"
-          style="background-image: url(https://raw.githubusercontent.com/raighneweng/cv/master/src/assets/image/head.png);"
+          style="background-image: url(https://github.com/raighneweng/cv/blob/master/src/assets/image/head.png);"
         ></div>
         <h1 id="username" contenteditable="true">Raighne.Weng</h1>
       </div>

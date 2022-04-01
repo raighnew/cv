@@ -4,7 +4,7 @@
       <div class="me">
         <div
           class="portrait"
-          style="background-image: url(https://github.com/raighneweng/cv/blob/master/src/assets/image/head.png);"
+          style="background-image: url('~assets/image/head.png');"
         ></div>
         <h1 id="username" contenteditable="true">Raighne.Weng</h1>
       </div>
@@ -174,7 +174,7 @@
             <span
               class="label-value"
               contenteditable="true"
-            >Node.js TypeScript Python MongoDB MySQL Redis Elasticsearch RxJava NSQ</span>
+            >Node.js TypeScript Python MongoDB MySQL Redis Elasticsearch SQS</span>
             <span class="item-remove" style="visibility: hidden;">
               <i class="iconfont icon-delete"></i>
             </span>
@@ -282,6 +282,7 @@
 import $ from "jquery";
 import workProjects from "../static/workProjects.json";
 import workExperiences from "../static/workExperiences.json";
+import "../assets/image/head.png";
 
 export default {
   data() {

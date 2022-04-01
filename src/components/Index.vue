@@ -4,7 +4,7 @@
       <div class="me">
         <div
           class="portrait"
-          style="background-image: url('~assets/image/head.png');"
+          :style="{backgroundImage: 'url(' + headImgae + ')'}"
         ></div>
         <h1 id="username" contenteditable="true">Raighne.Weng</h1>
       </div>
@@ -282,7 +282,7 @@
 import $ from "jquery";
 import workProjects from "../static/workProjects.json";
 import workExperiences from "../static/workExperiences.json";
-import "../assets/image/head.png";
+import headImgae from "../assets/image/head.png";
 
 export default {
   data() {
@@ -290,6 +290,7 @@ export default {
       locale: "cn",
       workProjects,
       workExperiences,
+      headImgae,
     };
   },
   created() {

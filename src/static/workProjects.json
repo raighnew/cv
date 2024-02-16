@@ -1,5 +1,18 @@
 [
   {
+    "id": 5,
+    "name": {
+      "en": "Public API and SDK",
+      "cn": "Public API and SDK"
+    },
+    "describe": {
+      "en":
+        "To enhance our customers' capabilities, I developed a public Application Programming Interface (API) and Software Development Kit (SDK) to facilitate the seamless integration of our artificial intelligence platform with their business operations. The API is crafted in TypeScript and comes with comprehensive inline documentation. Once the code is merged into the main branch, it is automatically deployed on Google Kubernetes Engine, and the documentation is published to our developer portal. We employ Kong as our gateway to offer public services, which includes key authentication and rate limiting setup on Kong, ensuring service protection while providing additional value for paying users. The SDK was developed in Python and it comes with a Command Line Interface (CLI), which allows customers to integrate it into their proprietary code. The CLI provides a variety of useful functions, such as the ability to upload assets directly from a local folder.",
+      "cn":
+        "为了赋能客户，我开发了一个公共API和SDK，以方便我们的人工智能平台与客户的业务运营无缝集成。API 采用 TypeScript 编写，并附带全面的内联文档。代码一旦合并到主分支，就会自动部署到谷歌 Kubernetes 引擎上，文档也会发布到我们的开发人员门户网站上。我们使用 Kong 作为提供公共服务的网关，其中包括在 Kong 上设置密钥验证和速率限制，以确保服务保护，同时为付费用户提供额外价值。SDK 是用 Python 开发的，它带有命令行界面 (CLI)，客户可以将其集成到自己的专有代码中。CLI 提供各种有用的功能，例如直接从本地文件夹上传资产。"
+    }
+  },
+  {
     "id": 4,
     "name": {
       "en": "Domain-driven design Project",
@@ -7,9 +20,9 @@
     },
     "describe": {
       "en":
-        "After company decide to use the microservices, it is difficult to divide the domain of the business. We started to practice DDD, I wirte payout-api to practice DDD, and it is a good project.",
+        "As a key member of the team, I actively participated in the company's transition to a microservice architecture, which involved breaking down and allocating traditional business logic into new domain services. Throughout this process, I implemented the practice of Domain-Driven Design (DDD), establishing a clear four-layered architecture consisting of Infrastructure, Domain, Application, and Interfaces layers. This not only optimized service segmentation and enhanced the system's maintainability and scalability but also deepened my understanding and application of layered architecture principles, significantly boosting overall development efficiency.",
       "cn":
-        "公司服务微服务话后，对新旧业务的领域划分是个难题，开始在公司内部实践DDD，在服务内部分别实现Infrastructure，Domain，Application，Interfaces层。"
+        "作为团队的关键成员，我积极参与了公司微服务架构的转型工作，这包括将传统业务拆分并划分到新的领域服务中。在这个过程中，我负责领导并执行领域驱动设计的实践：搭建了清晰的四层架构 —— 基础设施(Infrastructure)、领域(Domain)、应用(Application)以及接口(Interfaces)层。此举不仅优化了服务划分，提高了系统的可维护性和扩展性，还加深了我对分层架构设计原则的理解和应用，有效地提升了整体开发效率。"
     }
   },
   {
@@ -23,19 +36,6 @@
         "Writed by TypeScript, use polymorphism to integrate different payment methods (TNG, Stripe, GrabPay...), provide payment support to other services and I practiced TDD during project development and realized the importance of testing.",
       "cn":
         "TypeScript 项目，为了解决一个支付方式一个调用api，用多态封装了多种支付服务，以微服务的形式给公司其他服务提供支付支撑，项目开发过程重实践了 TDD，认识到了测试的重要性"
-    }
-  },
-  {
-    "id": 2,
-    "name": {
-      "en": "Nodejs Resetful Project",
-      "cn": "Nodejs Resetful 服务"
-    },
-    "describe": {
-      "en":
-        "Used Express to provide Restfull API support for client, use middleware to verify client request permission, familiar with WeChat authorization、 WeChat payment、enterprise payment. Designed and developed the order system, group purchase system, leading the upgrade of the back end.",
-      "cn":
-        "使用了 Express 为客户端(IOS,Android,小程序,微信公众号)提供 Restfull API 支持，使用中间件验证客户端的请求权限，熟悉微信授权(小程序,公众号,App)，接入微信支付，企业付款，设计开发了订单系统，团购系统，主导升级了后端 Mysql 读写分离，nginx 负载均衡，nsq 消息列队等。。。前端方向，使用 VUE 和 ElementUI 开发了内部运营平台"
     }
   },
   {

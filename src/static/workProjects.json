@@ -7,48 +7,35 @@
     },
     "describe": {
       "en":
-        "To enhance our customers' capabilities, I developed a public Application Programming Interface (API) and Software Development Kit (SDK) to facilitate the seamless integration of our artificial intelligence platform with their business operations. The API is crafted in TypeScript and comes with comprehensive inline documentation. Once the code is merged into the main branch, it is automatically deployed on Google Kubernetes Engine, and the documentation is published to our developer portal. We employ Kong as our gateway to offer public services, which includes key authentication and rate limiting setup on Kong, ensuring service protection while providing additional value for paying users. The SDK was developed in Python and it comes with a Command Line Interface (CLI), which allows customers to integrate it into their proprietary code. The CLI provides a variety of useful functions, such as the ability to upload assets directly from a local folder.",
+        "In Datature, to enhance our customers' capabilities, I developed public APIs and SDKs to facilitate the seamless integration of our AI platform with their business operations. The API is crafted in TypeScript and comes with comprehensive inline documentation. Once the code is merged into the main branch, it is automatically deployed on Google Kubernetes Engine, and the documentation is published to our developer portal. We employ Kong as our gateway to offer public services, which includes key authentication and rate limiting setup on Kong, ensuring service protection while providing additional value for paying users. The SDK was developed in Python and it comes with a Command Line Interface (CLI), which allows customers to integrate it into their proprietary code. The CLI provides a variety of useful functions, such as the ability to upload assets directly from a local folder.",
       "cn":
-        "为了赋能客户，我开发了一个公共API和SDK，以方便我们的人工智能平台与客户的业务运营无缝集成。API 采用 TypeScript 编写，并附带全面的内联文档。代码一旦合并到主分支，就会自动部署到谷歌 Kubernetes 引擎上，文档也会发布到我们的开发人员门户网站上。我们使用 Kong 作为提供公共服务的网关，其中包括在 Kong 上设置密钥验证和速率限制，以确保服务保护，同时为付费用户提供额外价值。SDK 是用 Python 开发的，它带有命令行界面 (CLI)，客户可以将其集成到自己的专有代码中。CLI 提供各种有用的功能，例如直接从本地文件夹上传资产。"
-    }
-  },
-  {
-    "id": 4,
-    "name": {
-      "en": "Domain-driven design Project",
-      "cn": "DDD实践项目"
-    },
-    "describe": {
-      "en":
-        "As a key member of the team, I actively participated in the company's transition to a microservice architecture, which involved breaking down and allocating traditional business logic into new domain services. Throughout this process, I implemented the practice of Domain-Driven Design (DDD), establishing a clear four-layered architecture consisting of Infrastructure, Domain, Application, and Interfaces layers. This not only optimized service segmentation and enhanced the system's maintainability and scalability but also deepened my understanding and application of layered architecture principles, significantly boosting overall development efficiency.",
-      "cn":
-        "作为团队的关键成员，我积极参与了公司微服务架构的转型工作，这包括将传统业务拆分并划分到新的领域服务中。在这个过程中，我负责领导并执行领域驱动设计的实践：搭建了清晰的四层架构 —— 基础设施(Infrastructure)、领域(Domain)、应用(Application)以及接口(Interfaces)层。此举不仅优化了服务划分，提高了系统的可维护性和扩展性，还加深了我对分层架构设计原则的理解和应用，有效地提升了整体开发效率。"
+        "在 Datature，为了提高客户的能力，我开发了公共 API 和 SDK，以促进我们的人工智能平台与客户业务运营的无缝集成。API 采用 TypeScript 编写，并附带全面的内联文档。代码一旦合并到主分支，就会自动部署到谷歌 Kubernetes 引擎上，文档也会发布到我们的开发人员门户网站上。我们使用 Kong 作为提供公共服务的网关，其中包括在 Kong 上设置密钥验证和速率限制，以确保在为付费用户提供额外价值的同时保护服务。SDK 是用 Python 开发的，它带有命令行界面 (CLI)，客户可以将其集成到自己的专有代码中。CLI 提供各种有用的功能，例如直接从本地文件夹上传资产。"
     }
   },
   {
     "id": 3,
     "name": {
-      "en": "Payment Service",
+      "en": "Payment and Payout Service",
       "cn": "支付服务"
     },
     "describe": {
       "en":
-        "Writed by TypeScript, use polymorphism to integrate different payment methods (TNG, Stripe, GrabPay...), provide payment support to other services and I practiced TDD during project development and realized the importance of testing.",
+        "The payment service was developed in TypeScript to encapsulate third-party logic for our POS and Web platforms. Employing polymorphism, I integrated various payment methods such as TNG, Stripe, and GrabPay, enabling seamless payment support for other services. Throughout the project development, I embraced Test-Driven Development (TDD), recognizing its significance in ensuring robustness and reliability.",
       "cn":
-        "TypeScript 项目，为了解决一个支付方式一个调用api，用多态封装了多种支付服务，以微服务的形式给公司其他服务提供支付支撑，项目开发过程重实践了 TDD，认识到了测试的重要性"
+        "支付服务是用 TypeScript 开发的，目的是为我们的 POS 和网络平台封装第三方逻辑。利用多态性，我集成了 TNG、Stripe 和 GrabPay 等各种支付方法，实现了对其他服务的无缝支付支持。在整个项目开发过程中，我采用了测试驱动开发（TDD），因为我认识到它在确保稳健性和可靠性方面的重要性。"
     }
   },
   {
-    "id": 1,
+    "id": 2,
     "name": {
-      "en": "Crawler + Data Visualization",
-      "cn": "爬虫 + 数据可视化"
+      "en": "Domain-Driven Design Project",
+      "cn": "DDD实践项目"
     },
     "describe": {
       "en":
-        "Crawler project using Selenium to simulate real users crawling Zhihu and Douban data, crawling zhihu topics (150,000+) and Douban books (260,000+), and using Echart to visualize topic data. Project address: https://github.com/raighneweng/pythonCrawler",
+        "In Payout Service, I actively participated in the company's transition to a microservice architecture, which involved breaking down and allocating traditional business logic into new domain services. Throughout this process, I implemented the practice of Domain-Driven Design (DDD), establishing a clear four-layered architecture consisting of Infrastructure, Domain, Application, and Interfaces layers. This not only optimized service segmentation and enhanced the system's maintainability and scalability but also deepened my understanding and application of layered architecture principles, significantly boosting overall development efficiency.",
       "cn":
-        "爬虫项目，使用 Selenium 模拟真实用户爬取知乎和豆瓣数据，爬取知乎的主要话题(15万+)和豆瓣图书(26万+)，并使用 Echart 将话题数据可视化，围观地址: https://github.com/raighneweng/pythonCrawler"
+        "在支付服务部，我积极参与了公司向微服务架构的转型，其中包括将传统业务逻辑分解并分配到新的领域服务中。在整个过程中，我实施了领域驱动设计（DDD）实践，建立了由基础架构层、领域层、应用层和接口层组成的清晰的四层架构。这不仅优化了服务细分，增强了系统的可维护性和可扩展性，还加深了我对分层架构原则的理解和应用，大大提高了整体开发效率。"
     }
   }
 ]

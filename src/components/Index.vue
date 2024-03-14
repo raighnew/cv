@@ -2,9 +2,9 @@
   <div class="container" id="cv">
     <div class="side">
       <div class="me">
-        <div
+         <div
           class="portrait"
-          :style="{backgroundImage: 'url(' + headImgae + ')'}"
+          :style="{backgroundImage: 'url(' + headImage + ')'}"
         ></div>
         <h1 id="username" contenteditable="true">Raighne.Weng</h1>
       </div>
@@ -79,13 +79,6 @@
             </span>
           </li>
           <li>
-            <label class="left-label" contenteditable="true">{{$t('mobile')}}</label>
-            <span class="label-value" contenteditable="true">{{$t('myMobile2')}}</span>
-            <span class="item-remove" style="visibility: hidden;">
-              <i class="iconfont icon-delete"></i>
-            </span>
-          </li>
-          <li>
             <label class="left-label" contenteditable="true">{{$t('email')}}</label>
             <span class="label-value" contenteditable="true">{{$t('myEmail')}}</span>
             <span class="item-remove" style="visibility: hidden;">
@@ -112,7 +105,7 @@
           </li>
         </ul>
       </div>
-      <div class="skill info-unit">
+      <!-- <div class="skill info-unit">
         <h2 class="info-header">
           <i class="iconfont icon-star"></i>
           <span class="info-title" contenteditable="true">{{$t('skills')}}</span>
@@ -147,7 +140,7 @@
             </span>
           </li>
         </ul>
-      </div>
+      </div> -->
       <div class="stack info-unit">
         <h2 class="info-header">
           <i class="iconfont icon-build"></i>
@@ -279,7 +272,7 @@
 import $ from "jquery";
 import workProjects from "../static/workProjects.json";
 import workExperiences from "../static/workExperiences.json";
-import headImgae from "../assets/image/head.png";
+import headImage from "../assets/image/head.png";
 
 export default {
   data() {
@@ -287,7 +280,7 @@ export default {
       locale: "cn",
       workProjects,
       workExperiences,
-      headImgae,
+      headImage,
     };
   },
   created() {

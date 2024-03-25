@@ -18,7 +18,7 @@ export default {
   email: 'Email',
   myEmail: 'raighne.weng@gmail.com',
   page: 'HomePage',
-  myPage: 'raighne.xyz',
+  myPage: 'www.raighne.xyz',
   skills: 'Skills',
   skillMap: 'SkillMap',
   devOps: 'DevOps',

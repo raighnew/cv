@@ -22,7 +22,7 @@
       "en":
         "The payment service was developed in TypeScript to encapsulate third-party logic for our POS and Web platforms. Employing polymorphism, I integrated various payment methods such as TNG, Stripe, and GrabPay, enabling seamless payment support for other services. Throughout the project development, I embraced Test-Driven Development (TDD), recognizing its significance in ensuring robustness and reliability.",
       "cn":
-        "支付服务是用 TypeScript 开发的，目的是为我们的 POS 和网络平台封装第三方逻辑。利用多态性，我集成了 TNG、Stripe 和 GrabPay 等各种支付方法，实现了对其他服务的无缝支付支持。在整个项目开发过程中，我采用了测试驱动开发（TDD），因为我认识到它在确保稳健性和可靠性方面的重要性。"
+        "支付服务是用 TypeScript 开发的，目的是为我们的 POS 和 Web 平台封装第三方逻辑。利用多态性，我集成了 TNG、Stripe 和 GrabPay 等各种支付方法，实现了对其他服务的无缝支付支持。在整个项目开发过程中，我采用了测试驱动开发（TDD），因为我认识到它在确保稳健性和可靠性方面的重要性。"
     }
   },
   {

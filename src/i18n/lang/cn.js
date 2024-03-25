@@ -18,7 +18,7 @@ export default {
   email: "邮箱",
   myEmail: "raighne.weng@gmail.com",
   page: "个人主页",
-  myPage: "raighne.xyz",
+  myPage: "www.raighne.xyz",
   skills: "技能点",
   skillMap: "技术栈",
   devOps: "DevOps",

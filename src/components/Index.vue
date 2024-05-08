@@ -1,13 +1,15 @@
 <template>
   <div class="container" id="cv">
     <div class="side">
-      <div class="me">
+      <!-- Portrait Head Image -->
+      <!-- <div class="me">
          <div
           class="portrait"
           :style="{backgroundImage: 'url(' + headImage + ')'}"
         ></div>
         <h1 id="username" contenteditable="true">Raighne.Weng</h1>
-      </div>
+      </div> -->
+      <div class="me"></div>
       <div class="profile info-unit">
         <h2 class="info-header">
           <i class="iconfont icon-person"></i>
@@ -167,7 +169,7 @@
             <span
               class="label-value"
               contenteditable="true"
-            >Node.js TypeScript Python Go Lua MongoDB MySQL Redis Elasticsearch SQS</span>
+            >Node.js TypeScript Python Go Lua MongoDB MySQL Redis Elasticsearch SQS gRPC</span>
             <span class="item-remove" style="visibility: hidden;">
               <i class="iconfont icon-delete"></i>
             </span>

@@ -7,7 +7,7 @@ export default {
   myDegree: 'Bachelor Degree',
   major: "Major",
   myMajor: "Communication Engineering",
-  school: 'Shool',
+  school: 'School',
   mySchool: 'Hunan Institute of Technology',
   education: 'Education',
   graduateTime: 'Graduation Year',

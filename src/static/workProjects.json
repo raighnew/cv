@@ -6,10 +6,8 @@
       "cn": "Public API and SDK"
     },
     "describe": {
-      "en":
-        "In Datature, to enhance our customers' capabilities, I developed public APIs and SDKs to facilitate the seamless integration of our AI platform with their business operations. The API is crafted in TypeScript and comes with comprehensive inline documentation. Once the code is merged into the main branch, it is automatically deployed on Google Kubernetes Engine, and the documentation is published to our developer portal. We employ Kong as our gateway to offer public services, which includes key authentication and rate limiting setup on Kong, ensuring service protection while providing additional value for paying users. The SDK was developed in Python and it comes with a Command Line Interface (CLI), which allows customers to integrate it into their proprietary code. The CLI provides a variety of useful functions, such as the ability to upload assets directly from a local folder.",
-      "cn":
-        "在 Datature，为了提高客户的能力，我开发了公共 API 和 SDK，以促进我们的人工智能平台与客户业务运营的无缝集成。API 采用 TypeScript 编写，并附带全面的内联文档。代码一旦合并到主分支，就会自动部署到谷歌 Kubernetes 引擎上，文档也会发布到我们的开发人员门户网站上。我们使用 Kong 作为提供公共服务的网关，其中包括在 Kong 上设置密钥验证和速率限制，以确保在为付费用户提供额外价值的同时保护服务。SDK 是用 Python 开发的，它带有命令行界面 (CLI)，客户可以将其集成到自己的专有代码中。CLI 提供各种有用的功能，例如直接从本地文件夹上传资产。"
+      "en": "In Datature, to enhance our customers' capabilities, I developed public APIs and SDKs to facilitate the seamless integration of our AI platform with their business operations. The API is crafted in TypeScript and comes with comprehensive inline documentation. Once the code is merged into the main branch, it is automatically deployed on Google Kubernetes Engine, and the documentation is published to our developer portal. We employ Kong as our gateway to offer public services, which includes key authentication and rate limiting setup on Kong, ensuring service protection while providing additional value for paying users. The SDK was developed in Python and it comes with a Command Line Interface (CLI), which allows customers to integrate it into their proprietary code. The CLI provides a variety of useful functions, such as the ability to upload assets directly from a local folder.",
+      "cn": "在 Datature，为了提高客户的能力，我开发了公共 API 和 SDK，以促进我们的人工智能平台与客户业务运营的无缝集成。API 采用 TypeScript 编写，并附带全面的内联文档。代码一旦合并到主分支，就会自动部署到谷歌 Kubernetes 引擎上，文档也会发布到我们的开发人员门户网站上。我们使用 Kong 作为提供公共服务的网关，其中包括在 Kong 上设置密钥验证和速率限制，以确保在为付费用户提供额外价值的同时保护服务。SDK 是用 Python 开发的，它带有命令行界面 (CLI)，客户可以将其集成到自己的专有代码中。CLI 提供各种有用的功能，例如直接从本地文件夹上传资产。"
     }
   },
   {
@@ -19,23 +17,19 @@
       "cn": "支付服务"
     },
     "describe": {
-      "en":
-        "The payment service was developed in TypeScript to encapsulate third-party logic for our POS and Web platforms. Employing polymorphism, I integrated various payment methods such as TNG, Stripe, and GrabPay, enabling seamless payment support for other services. Throughout the project development, I embraced Test-Driven Development (TDD), recognizing its significance in ensuring robustness and reliability.",
-      "cn":
-        "支付服务是用 TypeScript 开发的，目的是为我们的 POS 和 Web 平台封装第三方逻辑。利用多态性，我集成了 TNG、Stripe 和 GrabPay 等各种支付方法，实现了对其他服务的无缝支付支持。在整个项目开发过程中，我采用了测试驱动开发（TDD），因为我认识到它在确保稳健性和可靠性方面的重要性。"
+      "en": "The payment service was developed in TypeScript to encapsulate third-party logic for our POS and Web platforms. Employing polymorphism, I integrated various payment methods such as TNG, Stripe, and GrabPay, enabling seamless payment support for other services. Throughout the project development, I embraced Test-Driven Development (TDD), recognizing its significance in ensuring robustness and reliability.",
+      "cn": "支付服务是用 TypeScript 开发的，目的是为我们的 POS 和 Web 平台封装第三方逻辑。利用多态性，我集成了 TNG、Stripe 和 GrabPay 等各种支付方法，实现了对其他服务的无缝支付支持。在整个项目开发过程中，我采用了测试驱动开发（TDD），因为我认识到它在确保稳健性和可靠性方面的重要性。"
     }
   },
   {
-    "id": 2,
+    "id": 1,
     "name": {
-      "en": "Domain-Driven Design Project",
-      "cn": "DDD实践项目"
+      "en": "Kubernetes Projects",
+      "cn": "Kubernetes 项目"
     },
     "describe": {
-      "en":
-        "In Payout Service, I actively participated in the company's transition to a microservice architecture, which involved breaking down and allocating traditional business logic into new domain services. Throughout this process, I implemented the practice of Domain-Driven Design (DDD), establishing a clear four-layered architecture consisting of Infrastructure, Domain, Application, and Interfaces layers. This not only optimized service segmentation and enhanced the system's maintainability and scalability but also deepened my understanding and application of layered architecture principles, significantly boosting overall development efficiency.",
-      "cn":
-        "在支付服务部，我积极参与了公司向微服务架构的转型，其中包括将传统业务逻辑分解并分配到新的领域服务中。在整个过程中，我实施了领域驱动设计（DDD）实践，建立了由基础架构层、领域层、应用层和接口层组成的清晰的四层架构。这不仅优化了服务细分，增强了系统的可维护性和可扩展性，还加深了我对分层架构原则的理解和应用，大大提高了整体开发效率。"
+      "en": "During the development of the Public API, I engaged in Kubernetes development within a production environment. I authored a complete CI/CD pipeline to facilitate rolling updates of deployments within Kubernetes, utilizing Kong as the API gateway. On the Kong gateway, I wrote a custom rate-limiting plugin in Lua, which not only enhanced API availability and stability but also improved the system's capacity to handle high-traffic volumes. My efforts significantly shortened the product iteration cycle, ensured rapid rollback in the event of incremental update issues, and minimized the risk of system instability. Additionally, I integrated the entire cluster with Grafana, making it more convenient to monitor cluster resources and health status.",
+      "cn": "在开发Public API的过程中，我实践了在生产环境中使用Kubernetes的开发。我编写了完整的CI/CD流程，实现了对Kubernetes中部署的滚动更新，并采用Kong作为API网关。在Kong网关上，我用Lua语言编写了自定义的限流插件，这不仅提高了API的可用性和稳定性，还增强了系统对高流量的处理能力。我的这些工作有效地缩短了产品迭代周期，同时确保了在增量更新中发生问题时可以快速回滚，最大限度地降低了系统的不稳定性风险。整个集群接入了grafana, 更方便的了解集群的资源，以及健康度程度。"
     }
   }
 ]

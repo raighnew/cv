@@ -1,9 +1,22 @@
 [
   {
+    "id": "6",
+    "name": {
+      "en": "WorkStream / 2024.07 - NOW",
+      "cn": "WorkStream / 2024.07 - NOW"
+    },
+    "describe": {
+      "en":
+        "As a remote Senior Backend Developer at a leading California-based HR and Payroll platform for the hourly workforce, I joined the Time Shift team to drive new feature development. Collaborating closely with the product manager, I spearhead initiatives to enhance functionality and user experience, focusing on scalable, high-performance solutions.",
+      "cn":
+        "在 WorkStream 担任高级开发人员, 我加入了 Time Shift 团队, 与产品经理紧密合作，推动新功能的开发, 专注于提供可扩展的高性能解决方案, 以提升功能性和用户体验。"
+    }
+  },
+  {
     "id": "5",
     "name": {
-      "en": "Datature / 2022.08 - 2022.06",
-      "cn": "Datature / 2022.08 - 2022.06"
+      "en": "Datature / 2022.08 - 2024.06",
+      "cn": "Datature / 2022.08 - 2024.06"
     },
     "describe": {
       "en":
@@ -23,19 +36,6 @@
         "As a Backend Developer at a pioneering new retail startup in Malaysia, which successfully secured USD 8.9M in Series A funding led by Vertex Ventures, I played a key role in the company’s financial infrastructure. I developed payment products and integrated various third-party payment systems in Southeast Asia for our POS and online platforms. I also helped move our company to a microservices setup using Kubernetes and adopted Domain-Driven Design principles.",
       "cn":
         "作为马来西亚一家新零售创业公司的后台开发人员，我在公司的金融基础设施方面发挥了关键作用。该公司成功获得了由 Vertex Ventures 领投的 890 万美元 A 轮融资。我开发了支付服务，并为我们的 POS 和 Web 平台整合了东南亚的各种第三方支付系统。我还使用 Kubernetes 和领域驱动设计原则，帮助公司转向微服务架构。"
-    }
-  },
-  {
-    "id": "3",
-    "name": {
-      "en": "JiangSu ZhaoMi Technology / 2017.08 - 2019.03",
-      "cn": "江苏兆米技术有限公司 / 2017.08 - 2019.03"
-    },
-    "describe": {
-      "en":
-        "As a Full-Stack Developer at a collaborative bookstore technology service provider, I engaged in daily development of RESTful APIs and deepened my expertise in Node.js. I am well-versed in ES6 features, which I actively incorporate into production. I am passionate about architecture and software design patterns, I am committed to crafting elegant and scalable code.",
-      "cn":
-        "作为一家合作书店技术服务提供商的全栈开发人员，我参与了 RESTful API 的日常开发工作，并加深了我在 Node.js 方面的专业知识。我精通 ES6 功能，并积极将其融入到生产中。我对架构和软件设计模式充满热情，致力于打造优雅、可扩展的代码。"
     }
   }
 ]

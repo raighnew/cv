@@ -289,10 +289,10 @@ export default {
     document.title = this.$t("title");
     let uri = window.location.search.substring(1);
     let params = new URLSearchParams(uri);
-    if (params.get("lng") == "en") {
-      this.locale = "en";
-    } else {
+    if (params.get("lng") == "cn") {
       this.locale = "cn";
+    } else {
+      this.locale = "en";
     }
     $(document).ready(function($) {
       $("*").removeAttr("contenteditable");
